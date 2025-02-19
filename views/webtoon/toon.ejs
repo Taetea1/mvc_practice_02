@@ -8,10 +8,12 @@
 </head>
 
 <body>
+  <h1>웹툰 리스트</h1>
   <% webtoon.forEach((x,i)=>{%>
     <%= x.id %>
       <%= x.title %>
         <%= x.author %>
+          <br>
           <% }) %>
 </body>
 
